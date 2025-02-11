@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: bisque;
+}
 .parent{
     display: flex;
     gap: 10px;
@@ -27,7 +29,7 @@
 .child{
     width: 330px;
     height: 160px;
-    background-color: grey;
+    background-color: rgba(185, 183, 183, 0.597);
     border-radius: 15px;
     display: flex;
     gap: 40px;
@@ -35,8 +37,9 @@
 }
 img{
     width: 65px;
-    height: 55px;
+    height: 65px;
     margin: 20px;
+    border-radius: 50%;
 }
 .desc{
     margin: 20px;
@@ -45,5 +48,5 @@ input{
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
-    background-color: seagreen;
+    background-color: #27ae60;
 }
